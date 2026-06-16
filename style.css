@@ -260,6 +260,19 @@ z-index:999;
 
 @media(max-width:768px){
 
+    .logo{
+    font-family:'Playfair Display', serif !important;
+}
+
+.hero-content h1{
+    font-family:'Playfair Display', serif !important;
+}
+
+    .hero-content h1{
+    font-family:'Playfair Display', serif !important;
+    color:red !important;
+    }
+    
 .hero{
 flex-direction:column;
 text-align:center;
