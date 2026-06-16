@@ -7,14 +7,17 @@
 
 /* Logo / Brand Name */
 .logo{
-    font-family:'Playfair Display', serif;
-    font-weight:700;
+font-family:'Playfair Display', serif;
+font-size:26px;
+font-weight:700;
+color:#f39c12;
 }
 
-/* Hero Heading */
-.hero h1{
-    font-family:'Playfair Display', serif;
-    font-weight:700;
+.hero-content h1{
+font-family:'Playfair Display', serif;
+font-size:60px;
+line-height:1.1;
+margin-bottom:20px;
 }
 
 body{
