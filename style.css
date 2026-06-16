@@ -257,16 +257,14 @@ text-decoration:none;
 box-shadow:0 5px 15px rgba(0,0,0,.2);
 z-index:999;
 }
-
-@media(max-width:768px){
-
-    .logo{
+.logo{
     font-family:'Playfair Display', serif !important;
 }
 
 .hero-content h1{
     font-family:'Playfair Display', serif !important;
 }
+@media(max-width:768px){
 
     .hero-content h1{
     font-family:'Playfair Display', serif !important;
