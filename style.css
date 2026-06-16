@@ -1,8 +1,21 @@
+/* Default font */
 *{
-margin:0;
-padding:0;
-box-sizing:border-box;
-font-family:Playfair Display,serif;
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins', sans-serif;
+}
+
+/* Logo / Brand Name */
+.logo{
+    font-family:'Playfair Display', serif;
+    font-weight:700;
+}
+
+/* Hero Heading */
+.hero h1{
+    font-family:'Playfair Display', serif;
+    font-weight:700;
 }
 
 body{
