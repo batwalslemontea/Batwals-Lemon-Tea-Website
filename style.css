@@ -1,84 +1,102 @@
-/* 🌿 Batwal's Lemon Tea Website Design */
-
-body {
+/* General Reset */
+* {
   margin: 0;
-  font-family: 'Segoe UI', sans-serif;
-  background: #fff;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Banner */
+.banner {
+  background: linear-gradient(135deg, #4CAF50, #FFEB3B);
   color: #333;
-}
-
-header {
-  background: linear-gradient(135deg, #4caf50, #f9d423);
-  color: #fff;
   text-align: center;
-  padding: 60px 20px;
+  padding: 80px 20px;
 }
-
-header h1 {
+.banner h1 {
   font-size: 3em;
-  margin: 0;
-  font-weight: bold;
+  color: #fff;
 }
-
-header p {
+.banner p {
   font-size: 1.2em;
-  margin-top: 10px;
+  margin: 10px 0;
+  color: #222;
 }
-
-nav {
+.banner .btn {
   background: #fff;
-  padding: 15px;
-  text-align: center;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-}
-
-nav a {
-  margin: 0 15px;
+  color: #4CAF50;
+  padding: 10px 20px;
   text-decoration: none;
-  color: #333;
+  border-radius: 5px;
   font-weight: bold;
 }
 
-section {
-  padding: 60px 20px;
+/* Products */
+.products {
+  padding: 50px 20px;
   text-align: center;
 }
-
-.banner img {
-  max-width: 400px;
-  border-radius: 12px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+.products h2 {
+  margin-bottom: 30px;
+  font-size: 2em;
+  color: #4CAF50;
 }
-
-.icons, .features {
+.grid {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
-  margin-top: 30px;
+  flex-wrap: wrap;
 }
-
-.icons div, .features div {
-  background: #fff;
-  padding: 20px;
+.card {
+  background: #f9f9f9;
   border-radius: 10px;
-  width: 200px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  padding: 20px;
+  width: 250px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+.card h3 {
+  margin: 15px 0 10px;
+  color: #333;
+}
+.card p {
+  font-size: 0.9em;
+  color: #555;
 }
 
-h2 {
-  color: #2e7d32;
+/* About */
+.about {
+  background: #FFEB3B;
+  padding: 40px 20px;
+  text-align: center;
+}
+.about h2 {
+  color: #4CAF50;
   margin-bottom: 20px;
 }
 
-footer {
-  background: #2e7d32;
+/* Contact */
+.contact {
+  background: #4CAF50;
   color: #fff;
+  padding: 40px 20px;
   text-align: center;
-  padding: 30px;
+}
+.contact h2 {
+  margin-bottom: 20px;
+}
+.contact a {
+  color: #FFEB3B;
+  text-decoration: none;
 }
 
-footer a {
-  color: #f9d423;
-  text-decoration: none;
+/* Footer */
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
 }
