@@ -257,21 +257,14 @@ text-decoration:none;
 box-shadow:0 5px 15px rgba(0,0,0,.2);
 z-index:999;
 }
+
 .comparison-table {
   max-width: 900px;
   margin: 30px auto;
-  border: 1px solid #ddd;
+  border: 2px solid #f39c12; /* Orange border */
   border-radius: 12px;
   overflow: hidden;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-}
-
-.comparison-table td.yes::before {
-  content:"💚 ";
-}
-
-.comparison-table td.no::before {
-  content:"❌ ";
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
 
 .comparison-table table {
@@ -284,30 +277,29 @@ z-index:999;
   border: 1px solid #ddd;
   padding: 14px;
   text-align: center;
+  white-space: nowrap;
 }
 
 .comparison-table th {
-  background: linear-gradient(90deg, #2e7d32, #f4a000);
+  background: #f39c12; /* Orange header */
   color: white;
   font-weight: 600;
 }
 
 .comparison-table tr:nth-child(even) {
-  background-color: #fffde7; /* light yellow alternate rows */
+  background-color: #fff7e6; /* light orange alternate rows */
 }
 
 .yes {
-  color: #2e7d32; /* Green */
+  color: #2e7d32; /* Green heart */
   font-weight: bold;
+  font-size: 20px;
 }
 
 .no {
-  color: #c62828; /* Red */
+  color: #c62828; /* Red cross */
   font-weight: bold;
-}
-.comparison-table {
-  overflow-x:auto;
-  border-radius:12px;
+  font-size: 20px;
 }
 
 
