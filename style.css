@@ -297,6 +297,18 @@ z-index:999;
   color: #c62828; /* Red */
   font-weight: bold;
 }
+.comparison-table {
+  overflow-x:auto;
+  border-radius:12px;
+}
+
+.comparison-table td.yes::before {
+  content:"💚 ";
+}
+
+.comparison-table td.no::before {
+  content:"❌ ";
+}
 .achievement{
 text-align:center;
 }
