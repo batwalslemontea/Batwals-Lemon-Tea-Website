@@ -257,48 +257,42 @@ text-decoration:none;
 box-shadow:0 5px 15px rgba(0,0,0,.2);
 z-index:999;
 }
-.comparison{
-max-width:700px;
-margin:0 auto 50px;
+.compare-header{
+display:flex;
+justify-content:space-between;
+padding:15px 20px;
+font-weight:700;
+background:#f39c12;
+color:white;
+border-radius:50px;
+margin-bottom:15px;
 }
 
 .compare-row{
 display:flex;
 justify-content:space-between;
 align-items:center;
-background:#fff;
+background:white;
 padding:15px 20px;
-margin-bottom:15px;
+margin-bottom:12px;
 border-radius:50px;
 box-shadow:0 5px 15px rgba(0,0,0,.08);
 }
 
+.compare-row span:first-child{
+width:70%;
+}
+
 .yes{
 color:green;
-font-weight:700;
+font-size:22px;
+font-weight:bold;
 }
 
 .no{
 color:red;
-font-weight:700;
-}
-
-.difference-text{
-text-align:center;
-max-width:700px;
-margin:auto;
-}
-
-.difference-text h3{
-font-family:'Playfair Display', serif;
-font-size:40px;
-margin-bottom:20px;
-}
-
-.difference-text p{
-font-size:18px;
-line-height:1.8;
-color:#555;
+font-size:22px;
+font-weight:bold;
 }
 
 .achievement{
