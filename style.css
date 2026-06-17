@@ -266,6 +266,14 @@ z-index:999;
   box-shadow: 0 4px 12px rgba(0,0,0,0.08);
 }
 
+.comparison-table td.yes::before {
+  content:"💚 ";
+}
+
+.comparison-table td.no::before {
+  content:"❌ ";
+}
+
 .comparison-table table {
   width: 100%;
   border-collapse: collapse;
@@ -302,13 +310,7 @@ z-index:999;
   border-radius:12px;
 }
 
-.comparison-table td.yes::before {
-  content:"💚 ";
-}
 
-.comparison-table td.no::before {
-  content:"❌ ";
-}
 .achievement{
 text-align:center;
 }
