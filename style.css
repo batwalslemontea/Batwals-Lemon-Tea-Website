@@ -394,4 +394,41 @@ display:none;
 .section-title{
 font-size:32px;
 }
-  }
+    
+.comparison-blocks {
+  max-width: 900px;
+  margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.compare-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f39c12; /* Orange block */
+  color: white;
+  padding: 15px 20px;
+  border-radius: 50px;
+  font-size: 18px;
+  font-weight: 600;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.compare-row .feature {
+  flex: 1;
+  text-align: left;
+}
+
+.compare-row .yes {
+  color: #2e7d32; /* Green heart */
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.compare-row .no {
+  color: #c62828; /* Red cross */
+  font-size: 20px;
+  font-weight: bold;
+}
