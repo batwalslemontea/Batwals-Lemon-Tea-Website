@@ -258,6 +258,20 @@ box-shadow:0 5px 15px rgba(0,0,0,.2);
 z-index:999;
 }
 
+.difference-text p{
+font-size:18px;
+line-height:1.8;
+color:#555;
+}
+
+.logo{
+    font-family:'Playfair Display', serif !important;
+}
+
+.hero-content h1{
+    font-family:'Playfair Display', serif !important;
+}
+
 .comparison-blocks {
   max-width: 900px;
   margin: 30px auto;
@@ -287,11 +301,13 @@ z-index:999;
 .compare-row .yes {
   color: #2e7d32; /* Green heart */
   font-size: 20px;
+  font-weight: bold;
 }
 
 .compare-row .no {
   color: #c62828; /* Red cross */
   font-size: 20px;
+  font-weight: bold;
 }
 
 
