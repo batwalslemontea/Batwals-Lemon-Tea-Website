@@ -257,50 +257,45 @@ text-decoration:none;
 box-shadow:0 5px 15px rgba(0,0,0,.2);
 z-index:999;
 }
-.comparison {
-  margin: 40px auto;
-  max-width: 800px;
-  text-align: center;
+.comparison-table {
+  max-width: 900px;
+  margin: 30px auto;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
 }
 
-.comparison h2 {
-  font-size: 28px;
-  background: linear-gradient(90deg, #2e7d32, #f9a825); /* Green to Yellow */
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-weight: bold;
-  margin-bottom: 20px;
-}
-
-.comparison table {
+.comparison-table table {
   width: 100%;
   border-collapse: collapse;
   font-size: 18px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
-.comparison th, .comparison td {
+.comparison-table th, .comparison-table td {
   border: 1px solid #ddd;
-  padding: 12px;
+  padding: 14px;
+  text-align: center;
 }
 
-.comparison th {
-  background-color: #f9f9f9;
-  color: #333;
+.comparison-table th {
+  background: linear-gradient(90deg, #2e7d32, #f4a000);
+  color: white;
+  font-weight: 600;
 }
 
-.comparison td.yes {
-  color: #2e7d32; /* Green for Yes */
+.comparison-table tr:nth-child(even) {
+  background-color: #fffde7; /* light yellow alternate rows */
+}
+
+.yes {
+  color: #2e7d32; /* Green */
   font-weight: bold;
 }
 
-.comparison td.no {
-  color: #c62828; /* Red for No */
+.no {
+  color: #c62828; /* Red */
   font-weight: bold;
-}
-
-.comparison tr:nth-child(even) {
-  background-color: #fffde7; /* Light yellow alternate rows */
 }
 .achievement{
 text-align:center;
